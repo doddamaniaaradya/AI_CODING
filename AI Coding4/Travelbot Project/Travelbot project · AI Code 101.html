@@ -1,0 +1,1641 @@
+<!DOCTYPE html>
+<!-- saved from url=(0047)https://aicode101.com/en-us/projects/31776/edit -->
+<html lang="en-us" style="" class=" svg supports svgfilters csscalc cssgradients preserve3d svgclippaths svgasimg no-touchevents cssanimations boxsizing csstransforms3d csstransformslevel2 csstransitions"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	
+	
+	
+  <meta name="viewport" content="width=device-width">
+	<meta name="description" content="Introduce your K-12 students to artificial intelligence (AI) and machine learning (ML) technologies using our cutting-edge teaching tools.">
+  <meta name="google-site-verification" content="CD8HSZUVIwvP1Cu1_DAASV_ZO_QSW8RnaEBmhirXSRQ">
+  
+  
+  <noscript><meta http-equiv="refresh" content="0; url=/en-us/nojs"/></noscript>
+  
+	<title>Travelbot project · AI Code 101</title>
+  <link rel="stylesheet" media="screen" href="./Travelbot project · AI Code 101_files/open-iconic-bootstrap.min.css">
+  <link rel="stylesheet" media="screen" href="./Travelbot project · AI Code 101_files/vendor.min.css">
+  <link rel="stylesheet" media="screen" href="./Travelbot project · AI Code 101_files/theme.min.css">
+  <link rel="stylesheet" media="screen" href="./Travelbot project · AI Code 101_files/custom.css">
+  
+<link rel="stylesheet" media="screen" href="./Travelbot project · AI Code 101_files/editchatbot.css">
+
+  
+  
+  
+    <script type="text/javascript">
+      var console = {
+        log: function(){},
+        info: function(){},
+        warn: function(){},
+        error: function(){}
+      };
+      window.console = console;
+    </script>
+  
+  <script crossorigin="anonymous" integrity="sha384-ZvpUoO/+PpLXR1lu4jmpXWu80pZlYUAfxl5NsBMWOEPSjUn/6Z/hRTt8+pR6L4N2" src="./Travelbot project · AI Code 101_files/jquery-3.5.1.min.js.download"></script>
+<script crossorigin="anonymous" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" src="./Travelbot project · AI Code 101_files/bootstrap.bundle.min.js.download"></script>
+  <script src="./Travelbot project · AI Code 101_files/modernizr.min.js.download"></script>
+  
+  
+  
+    <script async="" src="./Travelbot project · AI Code 101_files/js"></script>
+    <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag("js",new Date);gtag("config","G-1C7NQX4KEY");</script>
+  
+</head>
+<body class="d-flex flex-column">
+  
+	<header>
+    <div class="navbar-wrapper">
+      <div class="d-table-cell align-middle pr-md-3" id="branding">
+        <a class="navbar-brand mr-1" href="https://aicode101.com/en-us/">
+          <img src="./Travelbot project · AI Code 101_files/logo.svg" alt="AI Code 101" title="AI Code 101">
+        </a>
+      </div>
+      <div class="d-table-cell w-100 align-middle pl-md-3">
+        <div class="navbar-top d-flex justify-content-between align-items-center">
+          <div class="d-none d-lg-block">
+            
+            <a class="navbar-link mr-3" href="tel:+13025886066"><i class="fe-icon-phone"></i>+1 (302) 588 6066</a><!--
+            --><a class="navbar-link mr-3" href="mailto:info@illum.ai"><i class="fe-icon-mail"></i>info@illum.ai</a><!--
+            --><a class="social-btn sb-style-3 sb-twitter" href="https://aicode101.com/en-us/projects/31776/edit#"><i class="socicon-twitter"></i></a><!--
+            --><a class="social-btn sb-style-3 sb-facebook" href="https://aicode101.com/en-us/projects/31776/edit#"><i class="socicon-facebook"></i></a><!--
+            --><a class="social-btn sb-style-3 sb-instagram" href="https://aicode101.com/en-us/projects/31776/edit#"><i class="socicon-instagram"></i></a>
+          </div>
+          <div>
+            <ul class="navbar-language list-inline d-inline-block mb-0 logged-in">
+              <li class="dropdown-toggle mr-2 c-default"><img src="./Travelbot project · AI Code 101_files/globe.svg"> 
+                <div class="dropdown-menu left-aligned p-3 text-center">
+                  <p class="text-sm text-muted">Change the site language.</p>
+                  
+                  <a class="btn btn-secondary btn-sm btn-block" href="https://aicode101.com/en-us/projects/31776/edit">English (US)</a>
+                  
+                  <a class="btn btn-secondary btn-sm btn-block" href="https://aicode101.com/zh-hans/projects/31776/edit">Chinese (Simplified)</a>
+                  
+                </div>
+              </li>
+            </ul>
+          	
+            <ul class="list-inline d-inline-block mb-0">
+              
+              <li class="dropdown-toggle mr-2 c-default"><i class="fe-icon-user"></i> Welcome Aaradya
+              
+                <div class="dropdown-menu right-aligned p-3 text-center" style="min-width: 200px;">
+                  
+                  <a class="btn btn-secondary btn-sm btn-block" href="https://aicode101.com/en-us/settings/">User Settings</a>
+                  <a class="btn btn-primary btn-sm btn-block" href="https://aicode101.com/en-us/logout">Logout</a>
+                </div>
+              </li>
+            </ul>
+          	
+          </div>
+        </div>
+        <div class="navbar justify-content-end justify-content-between">
+          <!-- Search-->
+          <form class="search-box" method="get">
+            <div class="easy-autocomplete" style="width: 1369px;"><input type="text" id="site-search" placeholder="Type A or C to see suggestions" autocomplete="off"><div class="easy-autocomplete-container" id="eac-container-site-search"><ul></ul></div></div><span class="search-close"><i class="fe-icon-x"></i></span>
+          </form>
+          <!-- Main Menu -->
+          <ul class="navbar-nav d-block">
+          
+            <!-- Projects -->
+            
+            <li class="nav-item active"><a class="nav-link" href="https://aicode101.com/en-us/projects/">Projects</a></li>
+            <!-- Courses -->
+            <li class="nav-item"><a class="nav-link" href="https://lessonbook.ai/" target="_blank">Courses</a></li>
+          
+            <!-- Scratch -->
+            
+              
+            
+            <li class="nav-item"><a class="nav-link" href="https://aicode101.com/scratch/?lang=en-us" target="_blank">Scratch</a></li>
+            <!-- Downloads -->
+            
+            <li class="nav-item"><a class="nav-link" href="https://aicode101.com/en-us/downloads/">Downloads</a></li>
+            <!-- About -->
+            
+            <li class="nav-item"><a class="nav-link" href="https://aicode101.com/en-us/about/">About</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- Page Title-->
+  <div id="page-title" class="page-title d-flex" aria-label="Page title" style="background-image: url(/static/img/page-title/portfolio-pattern.png);">
+    <div class="container text-left align-self-center">
+      <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="https://aicode101.com/en-us/">Home</a></li>
+          
+<li class="breadcrumb-item"><a href="https://aicode101.com/en-us/projects/">Projects</a>
+            
+          
+          </li><li class="breadcrumb-item"><a href="https://aicode101.com/en-us/projects/31776/edit#">Travelbot project</a></li>
+          
+        </ol>
+      </nav>
+      <h1 class="page-title-heading">Travelbot project</h1>
+      
+      <div class="page-title-subheading">
+<i class="iziToast-icon fe-icon-tv "></i> Chatbot Project
+</div>
+      
+    </div>
+  </div>
+  <!-- Page Content-->
+  <div class="container pb-5 mb-3
+    
+  ">
+    
+
+
+
+    
+<div id="projects-editchatbot-app"><!----> <section id="steps" class="" style="height: 116px;"><div id="observer-threshold" style="margin-top: -200px;"></div> <div id="steps-large" class="d-none"><div class="container"><div class="row"><div class="col-lg-3 col-sm-6"><div id="step-1" class="step step-with-icon step-enabled"><a href="https://aicode101.com/en-us/projects/31776/edit"><div class="step-number">1</div> <div class="step-icon"><img src="./Travelbot project · AI Code 101_files/prototyping.svg" alt="Label"></div> <h3 class="step-title">Create Intents</h3> <p class="step-text">Create at least 1 intent with 3 utterances and 1 response each.</p></a> <a href="https://aicode101.com/en-us/projects/31776/edit" class="step-link">
+            Create Intent<i class="fe-icon-arrow-right"></i></a></div></div> <div class="col-lg-3 col-sm-6"><div id="step-2" class="step step-with-icon step-enabled"><a href="https://aicode101.com/en-us/projects/31776/edit"><div class="step-number">2</div> <div class="step-icon"><img src="./Travelbot project · AI Code 101_files/user-data.svg" alt="Train"></div> <h3 class="step-title">Train Your Model</h3> <p class="step-text">Run the Machine Learning training based on your intents and utterances.</p></a> <a href="https://aicode101.com/en-us/projects/31776/edit" class="step-link">
+            Run Training<i class="fe-icon-arrow-right"></i></a></div></div> <div class="col-lg-3 col-sm-6"><div id="step-3" class="step step-with-icon step-enabled"><a href="https://aicode101.com/en-us/projects/31776/edit"><div class="step-number">3</div> <div class="step-icon"><img src="./Travelbot project · AI Code 101_files/coding.svg" alt="Test"></div> <h3 class="step-title">Test Your Training</h3> <p class="step-text">Perform some tests with your model to evaluate your training.</p></a> <a href="https://aicode101.com/en-us/projects/31776/edit" class="step-link">
+            Run a Test<i class="fe-icon-arrow-right"></i></a></div></div> <div class="col-lg-3 col-sm-6"><div id="step-4" class="step step-with-icon step-enabled"><a href="https://aicode101.com/en-us/projects/31776/edit"><div class="step-number">4</div> <div class="step-icon"><img src="./Travelbot project · AI Code 101_files/ui-design.svg" alt="Apply"></div> <h3 class="step-title">Apply Your Model</h3> <p class="step-text">Use your Artificial Intelligence training within your own program or robot!</p></a> <a href="https://aicode101.com/en-us/projects/31776/edit" class="step-link">
+            Select Application<i class="fe-icon-arrow-right"></i></a></div></div></div></div></div> <div id="steps-small" class=""><div class="progress"><div role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="100" class="progress-bar progress-bar-striped progress-bar-animated" style="width: 100%;"><div class="progress-bar-text" style="width: 1110px;">Apply Your Model</div></div>
+    Apply Your Model
+  </div> <div class="progress-steps container"><div class="row"><div class="col"><span title="Step 1: Create Intents" class="progress-step">1</span></div> <div class="col"><span title="Step 2: Train Your Model" class="progress-step">2</span></div> <div class="col"><span title="Step 3: Test Your Training" class="progress-step">3</span></div> <div class="col"><span title="Step 4: Apply Your Model" class="progress-step">4</span></div></div></div></div></section> <section id="intents" class=""><h2 class="widget-title">Intents</h2> <div id="intent-deck" class="card-deck type-chatbot"><div class="col-sm-6 col-lg-4"><div class="intent card border border-primary"><div class="intent-header card-header d-flex flex-row w-100"><div id="intent-header-title-81179" class="intent-header-title scrollable-overflow flex-fill flex-grow-1"><span class="oi oi-tags mr-1"></span>Start<div class="scrollable-overflow-spacer"></div></div> <div class="scrollable-overflow-fade"></div> <div title="" class="intent-sample-count flex-fill flex-grow-0">
+      Utterances: 3
+    </div> <div class="flex-fill flex-grow-0"><a href="https://aicode101.com/en-us/projects/31776/edit" title="Delete intent “Start”" class="intent-delete"><span class="oi oi-circle-x"></span></a></div></div> <div id="intent-content-81179" class="intent-content container"><fieldset class="intent-utterances groupbox-border"><legend class="groupbox-border">Utterances</legend> <div class="row"><div class="col-12"><div class="sample"><div class="sample-image"><input type="text" placeholder="e.g. How are you today?" novalidate="novalidate" autocomplete="off" class="utterance-input img-thumbnail rounded"></div> <i title="Delete utterance from “Start”" class="sample-delete fe-icon-x"></i></div></div><div class="col-12"><div class="sample"><div class="sample-image"><input type="text" placeholder="e.g. How are you today?" novalidate="novalidate" autocomplete="off" class="utterance-input img-thumbnail rounded"></div> <i title="Delete utterance from “Start”" class="sample-delete fe-icon-x"></i></div></div><div class="col-12"><div class="sample"><div class="sample-image"><input type="text" placeholder="e.g. How are you today?" novalidate="novalidate" autocomplete="off" class="utterance-input img-thumbnail rounded"></div> <i title="Delete utterance from “Start”" class="sample-delete fe-icon-x"></i></div></div> <div class="col-12 newsample-correction"><div title="Click to select utterance" class="sample-new"><div class="sample-image"><div class="locked-height-container"><div class="locked-height-aspectratio-5x1"></div> <div tabindex="0" class="img-thumbnail locked-height-content rounded"><i class="fe-icon-plus-circle"></i></div></div></div></div></div></div></fieldset> <fieldset class="intent-responses groupbox-border"><legend class="groupbox-border">Response</legend> <div class="row"><div class="col-12"><div class="sample"><div class="sample-image"><textarea placeholder="e.g. I am well, thanks!" novalidate="novalidate" autocomplete="off" class="response-input img-thumbnail rounded"></textarea></div> <!----></div></div> <!----></div></fieldset></div></div></div><div class="col-sm-6 col-lg-4"><div class="intent card border border-primary"><div class="intent-header card-header d-flex flex-row w-100"><div id="intent-header-title-81181" class="intent-header-title scrollable-overflow flex-fill flex-grow-1"><span class="oi oi-tags mr-1"></span>Historical<div class="scrollable-overflow-spacer"></div></div> <div class="scrollable-overflow-fade"></div> <div title="" class="intent-sample-count flex-fill flex-grow-0">
+      Utterances: 4
+    </div> <div class="flex-fill flex-grow-0"><a href="https://aicode101.com/en-us/projects/31776/edit" title="Delete intent “Historical”" class="intent-delete"><span class="oi oi-circle-x"></span></a></div></div> <div id="intent-content-81181" class="intent-content container"><fieldset class="intent-utterances groupbox-border"><legend class="groupbox-border">Utterances</legend> <div class="row"><div class="col-12"><div class="sample"><div class="sample-image"><input type="text" placeholder="e.g. How are you today?" novalidate="novalidate" autocomplete="off" class="utterance-input img-thumbnail rounded"></div> <i title="Delete utterance from “Historical”" class="sample-delete fe-icon-x"></i></div></div><div class="col-12"><div class="sample"><div class="sample-image"><input type="text" placeholder="e.g. How are you today?" novalidate="novalidate" autocomplete="off" class="utterance-input img-thumbnail rounded"></div> <i title="Delete utterance from “Historical”" class="sample-delete fe-icon-x"></i></div></div><div class="col-12"><div class="sample"><div class="sample-image"><input type="text" placeholder="e.g. How are you today?" novalidate="novalidate" autocomplete="off" class="utterance-input img-thumbnail rounded"></div> <i title="Delete utterance from “Historical”" class="sample-delete fe-icon-x"></i></div></div><div class="col-12"><div class="sample"><div class="sample-image"><input type="text" placeholder="e.g. How are you today?" novalidate="novalidate" autocomplete="off" class="utterance-input img-thumbnail rounded"></div> <i title="Delete utterance from “Historical”" class="sample-delete fe-icon-x"></i></div></div> <div class="col-12 newsample-correction"><div title="Click to select utterance" class="sample-new"><div class="sample-image"><div class="locked-height-container"><div class="locked-height-aspectratio-5x1"></div> <div tabindex="0" class="img-thumbnail locked-height-content rounded"><i class="fe-icon-plus-circle"></i></div></div></div></div></div></div></fieldset> <fieldset class="intent-responses groupbox-border"><legend class="groupbox-border">Response</legend> <div class="row"><div class="col-12"><div class="sample"><div class="sample-image"><textarea placeholder="e.g. I am well, thanks!" novalidate="novalidate" autocomplete="off" class="response-input img-thumbnail rounded"></textarea></div> <!----></div></div> <!----></div></fieldset></div></div></div><div class="col-sm-6 col-lg-4"><div class="intent card border border-primary"><div class="intent-header card-header d-flex flex-row w-100"><div id="intent-header-title-81184" class="intent-header-title scrollable-overflow flex-fill flex-grow-1"><span class="oi oi-tags mr-1"></span>Cultural<div class="scrollable-overflow-spacer"></div></div> <div class="scrollable-overflow-fade"></div> <div title="" class="intent-sample-count flex-fill flex-grow-0">
+      Utterances: 3
+    </div> <div class="flex-fill flex-grow-0"><a href="https://aicode101.com/en-us/projects/31776/edit" title="Delete intent “Cultural”" class="intent-delete"><span class="oi oi-circle-x"></span></a></div></div> <div id="intent-content-81184" class="intent-content container"><fieldset class="intent-utterances groupbox-border"><legend class="groupbox-border">Utterances</legend> <div class="row"><div class="col-12"><div class="sample"><div class="sample-image"><input type="text" placeholder="e.g. How are you today?" novalidate="novalidate" autocomplete="off" class="utterance-input img-thumbnail rounded"></div> <i title="Delete utterance from “Cultural”" class="sample-delete fe-icon-x"></i></div></div><div class="col-12"><div class="sample"><div class="sample-image"><input type="text" placeholder="e.g. How are you today?" novalidate="novalidate" autocomplete="off" class="utterance-input img-thumbnail rounded"></div> <i title="Delete utterance from “Cultural”" class="sample-delete fe-icon-x"></i></div></div><div class="col-12"><div class="sample"><div class="sample-image"><input type="text" placeholder="e.g. How are you today?" novalidate="novalidate" autocomplete="off" class="utterance-input img-thumbnail rounded"></div> <i title="Delete utterance from “Cultural”" class="sample-delete fe-icon-x"></i></div></div> <div class="col-12 newsample-correction"><div title="Click to select utterance" class="sample-new"><div class="sample-image"><div class="locked-height-container"><div class="locked-height-aspectratio-5x1"></div> <div tabindex="0" class="img-thumbnail locked-height-content rounded"><i class="fe-icon-plus-circle"></i></div></div></div></div></div></div></fieldset> <fieldset class="intent-responses groupbox-border"><legend class="groupbox-border">Response</legend> <div class="row"><div class="col-12"><div class="sample"><div class="sample-image"><textarea placeholder="e.g. I am well, thanks!" novalidate="novalidate" autocomplete="off" class="response-input img-thumbnail rounded"></textarea></div> <!----></div></div> <!----></div></fieldset></div></div></div><div class="col-sm-6 col-lg-4"><div class="intent card border border-primary"><div class="intent-header card-header d-flex flex-row w-100"><div id="intent-header-title-81185" class="intent-header-title scrollable-overflow flex-fill flex-grow-1"><span class="oi oi-tags mr-1"></span>Fun<div class="scrollable-overflow-spacer"></div></div> <div class="scrollable-overflow-fade"></div> <div title="" class="intent-sample-count flex-fill flex-grow-0">
+      Utterances: 4
+    </div> <div class="flex-fill flex-grow-0"><a href="https://aicode101.com/en-us/projects/31776/edit" title="Delete intent “Fun”" class="intent-delete"><span class="oi oi-circle-x"></span></a></div></div> <div id="intent-content-81185" class="intent-content container"><fieldset class="intent-utterances groupbox-border"><legend class="groupbox-border">Utterances</legend> <div class="row"><div class="col-12"><div class="sample"><div class="sample-image"><input type="text" placeholder="e.g. How are you today?" novalidate="novalidate" autocomplete="off" class="utterance-input img-thumbnail rounded"></div> <i title="Delete utterance from “Fun”" class="sample-delete fe-icon-x"></i></div></div><div class="col-12"><div class="sample"><div class="sample-image"><input type="text" placeholder="e.g. How are you today?" novalidate="novalidate" autocomplete="off" class="utterance-input img-thumbnail rounded"></div> <i title="Delete utterance from “Fun”" class="sample-delete fe-icon-x"></i></div></div><div class="col-12"><div class="sample"><div class="sample-image"><input type="text" placeholder="e.g. How are you today?" novalidate="novalidate" autocomplete="off" class="utterance-input img-thumbnail rounded"></div> <i title="Delete utterance from “Fun”" class="sample-delete fe-icon-x"></i></div></div><div class="col-12"><div class="sample"><div class="sample-image"><input type="text" placeholder="e.g. How are you today?" novalidate="novalidate" autocomplete="off" class="utterance-input img-thumbnail rounded"></div> <i title="Delete utterance from “Fun”" class="sample-delete fe-icon-x"></i></div></div> <div class="col-12 newsample-correction"><div title="Click to select utterance" class="sample-new"><div class="sample-image"><div class="locked-height-container"><div class="locked-height-aspectratio-5x1"></div> <div tabindex="0" class="img-thumbnail locked-height-content rounded"><i class="fe-icon-plus-circle"></i></div></div></div></div></div></div></fieldset> <fieldset class="intent-responses groupbox-border"><legend class="groupbox-border">Response</legend> <div class="row"><div class="col-12"><div class="sample"><div class="sample-image"><textarea placeholder="e.g. I am well, thanks!" novalidate="novalidate" autocomplete="off" class="response-input img-thumbnail rounded"></textarea></div> <!----></div></div> <!----></div></fieldset></div></div></div> <div class="col-sm-6 col-lg-4"><div class="intent-new card border border-primary"><div class="card-header intent-header"><span class="oi oi-tags"></span> <input type="text" maxlength="100" placeholder="New Intent"> <div class="float-right"><a href="https://aicode101.com/en-us/projects/31776/edit" title="Create intent “”" class="intent-add disabled"><span class="oi oi-plus"></span></a></div></div></div></div></div></section> <!----> <!----> <div><div id="select-application-modal" tabindex="-1" role="dialog" aria-labelledby="selectOutput" aria-hidden="true" class="modal fade"><div role="document" class="modal-dialog modal-lg"><div class="modal-content"><div class="modal-header"><h5 id="modalTitle" class="modal-title">Select Application</h5> <button type="button" aria-label="Close" class="close"><span aria-hidden="true">×</span></button></div> <div class="modal-body"><div class="row"><div class="col-auto"><img src="./Travelbot project · AI Code 101_files/cloud-arrow-up-down.svg" alt="Icon of cloud with up and down arrows"></div> <div class="col"><div class="row"><div class="col"><h6>Publish</h6></div></div> <div class="row"><div class="col">
+                Get a link you can send to your friends or a code snippet you can embed into your own website, so that you can share your chatbot with the world!
+              </div></div> <div class="row"><div class="col"><a href="https://aicode101.com/en-us/projects/31776/publish" target="_blank" class="application-link">Export Your Model<i class="fe-icon-arrow-right"></i></a></div></div></div></div> <div class="row"><div class="col-auto"><img id="applicationModalQR" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPCFET0NUWVBFIHN2ZyBQVUJMSUMgIi0vL1czQy8vRFREIFNWRyAxLjEvL0VOIiAiaHR0cDovL3d3dy53My5vcmcvR3JhcGhpY3MvU1ZHLzEuMS9EVEQvc3ZnMTEuZHRkIj4KPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIgdmlld0JveD0iMCAwIDQ1IDQ1IiBzdHJva2U9Im5vbmUiPgoJPHJlY3Qgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgZmlsbD0iI0ZGRkZGRiIvPgoJPHBhdGggZD0iTTQsNGgxdjFoLTF6IE01LDRoMXYxaC0xeiBNNiw0aDF2MWgtMXogTTcsNGgxdjFoLTF6IE04LDRoMXYxaC0xeiBNOSw0aDF2MWgtMXogTTEwLDRoMXYxaC0xeiBNMTMsNGgxdjFoLTF6IE0xNCw0aDF2MWgtMXogTTE1LDRoMXYxaC0xeiBNMTgsNGgxdjFoLTF6IE0yMSw0aDF2MWgtMXogTTIzLDRoMXYxaC0xeiBNMjQsNGgxdjFoLTF6IE0yOCw0aDF2MWgtMXogTTI5LDRoMXYxaC0xeiBNMzAsNGgxdjFoLTF6IE0zNCw0aDF2MWgtMXogTTM1LDRoMXYxaC0xeiBNMzYsNGgxdjFoLTF6IE0zNyw0aDF2MWgtMXogTTM4LDRoMXYxaC0xeiBNMzksNGgxdjFoLTF6IE00MCw0aDF2MWgtMXogTTQsNWgxdjFoLTF6IE0xMCw1aDF2MWgtMXogTTEyLDVoMXYxaC0xeiBNMTUsNWgxdjFoLTF6IE0xNyw1aDF2MWgtMXogTTE4LDVoMXYxaC0xeiBNMjQsNWgxdjFoLTF6IE0zNCw1aDF2MWgtMXogTTQwLDVoMXYxaC0xeiBNNCw2aDF2MWgtMXogTTYsNmgxdjFoLTF6IE03LDZoMXYxaC0xeiBNOCw2aDF2MWgtMXogTTEwLDZoMXYxaC0xeiBNMTIsNmgxdjFoLTF6IE0xNCw2aDF2MWgtMXogTTE1LDZoMXYxaC0xeiBNMTYsNmgxdjFoLTF6IE0xOCw2aDF2MWgtMXogTTE5LDZoMXYxaC0xeiBNMjUsNmgxdjFoLTF6IE0yNiw2aDF2MWgtMXogTTI4LDZoMXYxaC0xeiBNMzEsNmgxdjFoLTF6IE0zMiw2aDF2MWgtMXogTTM0LDZoMXYxaC0xeiBNMzYsNmgxdjFoLTF6IE0zNyw2aDF2MWgtMXogTTM4LDZoMXYxaC0xeiBNNDAsNmgxdjFoLTF6IE00LDdoMXYxaC0xeiBNNiw3aDF2MWgtMXogTTcsN2gxdjFoLTF6IE04LDdoMXYxaC0xeiBNMTAsN2gxdjFoLTF6IE0xMiw3aDF2MWgtMXogTTEzLDdoMXYxaC0xeiBNMTcsN2gxdjFoLTF6IE0xOCw3aDF2MWgtMXogTTIwLDdoMXYxaC0xeiBNMjEsN2gxdjFoLTF6IE0yNCw3aDF2MWgtMXogTTI1LDdoMXYxaC0xeiBNMjYsN2gxdjFoLTF6IE0yNyw3aDF2MWgtMXogTTI4LDdoMXYxaC0xeiBNMjksN2gxdjFoLTF6IE0zMCw3aDF2MWgtMXogTTM0LDdoMXYxaC0xeiBNMzYsN2gxdjFoLTF6IE0zNyw3aDF2MWgtMXogTTM4LDdoMXYxaC0xeiBNNDAsN2gxdjFoLTF6IE00LDhoMXYxaC0xeiBNNiw4aDF2MWgtMXogTTcsOGgxdjFoLTF6IE04LDhoMXYxaC0xeiBNMTAsOGgxdjFoLTF6IE0xMyw4aDF2MWgtMXogTTE3LDhoMXYxaC0xeiBNMTksOGgxdjFoLTF6IE0yMSw4aDF2MWgtMXogTTIyLDhoMXYxaC0xeiBNMjMsOGgxdjFoLTF6IE0yNCw4aDF2MWgtMXogTTI1LDhoMXYxaC0xeiBNMjcsOGgxdjFoLTF6IE0zMCw4aDF2MWgtMXogTTM0LDhoMXYxaC0xeiBNMzYsOGgxdjFoLTF6IE0zNyw4aDF2MWgtMXogTTM4LDhoMXYxaC0xeiBNNDAsOGgxdjFoLTF6IE00LDloMXYxaC0xeiBNMTAsOWgxdjFoLTF6IE0xNyw5aDF2MWgtMXogTTE4LDloMXYxaC0xeiBNMjEsOWgxdjFoLTF6IE0yOCw5aDF2MWgtMXogTTI5LDloMXYxaC0xeiBNMzAsOWgxdjFoLTF6IE0zMiw5aDF2MWgtMXogTTM0LDloMXYxaC0xeiBNNDAsOWgxdjFoLTF6IE00LDEwaDF2MWgtMXogTTUsMTBoMXYxaC0xeiBNNiwxMGgxdjFoLTF6IE03LDEwaDF2MWgtMXogTTgsMTBoMXYxaC0xeiBNOSwxMGgxdjFoLTF6IE0xMCwxMGgxdjFoLTF6IE0xMiwxMGgxdjFoLTF6IE0xNCwxMGgxdjFoLTF6IE0xNiwxMGgxdjFoLTF6IE0xOCwxMGgxdjFoLTF6IE0yMCwxMGgxdjFoLTF6IE0yMiwxMGgxdjFoLTF6IE0yNCwxMGgxdjFoLTF6IE0yNiwxMGgxdjFoLTF6IE0yOCwxMGgxdjFoLTF6IE0zMCwxMGgxdjFoLTF6IE0zMiwxMGgxdjFoLTF6IE0zNCwxMGgxdjFoLTF6IE0zNSwxMGgxdjFoLTF6IE0zNiwxMGgxdjFoLTF6IE0zNywxMGgxdjFoLTF6IE0zOCwxMGgxdjFoLTF6IE0zOSwxMGgxdjFoLTF6IE00MCwxMGgxdjFoLTF6IE0xMiwxMWgxdjFoLTF6IE0xMywxMWgxdjFoLTF6IE0xNCwxMWgxdjFoLTF6IE0xNSwxMWgxdjFoLTF6IE0xNywxMWgxdjFoLTF6IE0xOSwxMWgxdjFoLTF6IE0yMCwxMWgxdjFoLTF6IE0yMSwxMWgxdjFoLTF6IE0yMiwxMWgxdjFoLTF6IE0yNCwxMWgxdjFoLTF6IE0yOCwxMWgxdjFoLTF6IE00LDEyaDF2MWgtMXogTTEwLDEyaDF2MWgtMXogTTEyLDEyaDF2MWgtMXogTTE3LDEyaDF2MWgtMXogTTIwLDEyaDF2MWgtMXogTTI5LDEyaDF2MWgtMXogTTMwLDEyaDF2MWgtMXogTTMxLDEyaDF2MWgtMXogTTMyLDEyaDF2MWgtMXogTTMzLDEyaDF2MWgtMXogTTM0LDEyaDF2MWgtMXogTTM3LDEyaDF2MWgtMXogTTM4LDEyaDF2MWgtMXogTTM5LDEyaDF2MWgtMXogTTQsMTNoMXYxaC0xeiBNNSwxM2gxdjFoLTF6IE02LDEzaDF2MWgtMXogTTcsMTNoMXYxaC0xeiBNOCwxM2gxdjFoLTF6IE0xNCwxM2gxdjFoLTF6IE0xNSwxM2gxdjFoLTF6IE0xNywxM2gxdjFoLTF6IE0xOCwxM2gxdjFoLTF6IE0yMCwxM2gxdjFoLTF6IE0yMiwxM2gxdjFoLTF6IE0yNSwxM2gxdjFoLTF6IE0yNiwxM2gxdjFoLTF6IE0yNywxM2gxdjFoLTF6IE0yOCwxM2gxdjFoLTF6IE0zMCwxM2gxdjFoLTF6IE0zMSwxM2gxdjFoLTF6IE0zMiwxM2gxdjFoLTF6IE0zMywxM2gxdjFoLTF6IE0zNiwxM2gxdjFoLTF6IE0zNywxM2gxdjFoLTF6IE0zOCwxM2gxdjFoLTF6IE0zOSwxM2gxdjFoLTF6IE00LDE0aDF2MWgtMXogTTUsMTRoMXYxaC0xeiBNNiwxNGgxdjFoLTF6IE03LDE0aDF2MWgtMXogTTgsMTRoMXYxaC0xeiBNMTAsMTRoMXYxaC0xeiBNMTMsMTRoMXYxaC0xeiBNMTQsMTRoMXYxaC0xeiBNMTUsMTRoMXYxaC0xeiBNMTcsMTRoMXYxaC0xeiBNMTgsMTRoMXYxaC0xeiBNMTksMTRoMXYxaC0xeiBNMjAsMTRoMXYxaC0xeiBNMjEsMTRoMXYxaC0xeiBNMjMsMTRoMXYxaC0xeiBNMjYsMTRoMXYxaC0xeiBNMjgsMTRoMXYxaC0xeiBNMzEsMTRoMXYxaC0xeiBNMzIsMTRoMXYxaC0xeiBNMzQsMTRoMXYxaC0xeiBNMzUsMTRoMXYxaC0xeiBNMzcsMTRoMXYxaC0xeiBNMzgsMTRoMXYxaC0xeiBNMzksMTRoMXYxaC0xeiBNNDAsMTRoMXYxaC0xeiBNNCwxNWgxdjFoLTF6IE03LDE1aDF2MWgtMXogTTExLDE1aDF2MWgtMXogTTEyLDE1aDF2MWgtMXogTTE1LDE1aDF2MWgtMXogTTE2LDE1aDF2MWgtMXogTTIyLDE1aDF2MWgtMXogTTIzLDE1aDF2MWgtMXogTTI0LDE1aDF2MWgtMXogTTI2LDE1aDF2MWgtMXogTTI3LDE1aDF2MWgtMXogTTI4LDE1aDF2MWgtMXogTTMwLDE1aDF2MWgtMXogTTMxLDE1aDF2MWgtMXogTTMzLDE1aDF2MWgtMXogTTM0LDE1aDF2MWgtMXogTTM1LDE1aDF2MWgtMXogTTM2LDE1aDF2MWgtMXogTTQwLDE1aDF2MWgtMXogTTgsMTZoMXYxaC0xeiBNOSwxNmgxdjFoLTF6IE0xMCwxNmgxdjFoLTF6IE0xMSwxNmgxdjFoLTF6IE0xMywxNmgxdjFoLTF6IE0xNCwxNmgxdjFoLTF6IE0xNSwxNmgxdjFoLTF6IE0xOCwxNmgxdjFoLTF6IE0xOSwxNmgxdjFoLTF6IE0yMiwxNmgxdjFoLTF6IE0yNCwxNmgxdjFoLTF6IE0yNywxNmgxdjFoLTF6IE0zMCwxNmgxdjFoLTF6IE0zMSwxNmgxdjFoLTF6IE0zNCwxNmgxdjFoLTF6IE0zNSwxNmgxdjFoLTF6IE0zNywxNmgxdjFoLTF6IE00MCwxNmgxdjFoLTF6IE00LDE3aDF2MWgtMXogTTcsMTdoMXYxaC0xeiBNOCwxN2gxdjFoLTF6IE05LDE3aDF2MWgtMXogTTEyLDE3aDF2MWgtMXogTTE2LDE3aDF2MWgtMXogTTE4LDE3aDF2MWgtMXogTTE5LDE3aDF2MWgtMXogTTIzLDE3aDF2MWgtMXogTTI0LDE3aDF2MWgtMXogTTI1LDE3aDF2MWgtMXogTTI3LDE3aDF2MWgtMXogTTMxLDE3aDF2MWgtMXogTTM1LDE3aDF2MWgtMXogTTM3LDE3aDF2MWgtMXogTTUsMThoMXYxaC0xeiBNNywxOGgxdjFoLTF6IE04LDE4aDF2MWgtMXogTTksMThoMXYxaC0xeiBNMTAsMThoMXYxaC0xeiBNMTMsMThoMXYxaC0xeiBNMTUsMThoMXYxaC0xeiBNMTYsMThoMXYxaC0xeiBNMTcsMThoMXYxaC0xeiBNMTksMThoMXYxaC0xeiBNMjAsMThoMXYxaC0xeiBNMjIsMThoMXYxaC0xeiBNMjQsMThoMXYxaC0xeiBNMjYsMThoMXYxaC0xeiBNMzAsMThoMXYxaC0xeiBNMzEsMThoMXYxaC0xeiBNMzIsMThoMXYxaC0xeiBNMzUsMThoMXYxaC0xeiBNMzYsMThoMXYxaC0xeiBNMzcsMThoMXYxaC0xeiBNMzksMThoMXYxaC0xeiBNNDAsMThoMXYxaC0xeiBNNCwxOWgxdjFoLTF6IE03LDE5aDF2MWgtMXogTTgsMTloMXYxaC0xeiBNOSwxOWgxdjFoLTF6IE0xMywxOWgxdjFoLTF6IE0xNywxOWgxdjFoLTF6IE0yMywxOWgxdjFoLTF6IE0yOCwxOWgxdjFoLTF6IE0zMywxOWgxdjFoLTF6IE0zNCwxOWgxdjFoLTF6IE0zNSwxOWgxdjFoLTF6IE0zNywxOWgxdjFoLTF6IE0zOCwxOWgxdjFoLTF6IE0zOSwxOWgxdjFoLTF6IE02LDIwaDF2MWgtMXogTTcsMjBoMXYxaC0xeiBNOSwyMGgxdjFoLTF6IE0xMCwyMGgxdjFoLTF6IE0xNSwyMGgxdjFoLTF6IE0xNywyMGgxdjFoLTF6IE0xOCwyMGgxdjFoLTF6IE0yMiwyMGgxdjFoLTF6IE0yMywyMGgxdjFoLTF6IE0yNiwyMGgxdjFoLTF6IE0yOSwyMGgxdjFoLTF6IE0zMSwyMGgxdjFoLTF6IE0zNCwyMGgxdjFoLTF6IE0zNiwyMGgxdjFoLTF6IE0zOCwyMGgxdjFoLTF6IE00MCwyMGgxdjFoLTF6IE00LDIxaDF2MWgtMXogTTUsMjFoMXYxaC0xeiBNOSwyMWgxdjFoLTF6IE0xNSwyMWgxdjFoLTF6IE0xNywyMWgxdjFoLTF6IE0xOCwyMWgxdjFoLTF6IE0yMCwyMWgxdjFoLTF6IE0yNSwyMWgxdjFoLTF6IE0yNiwyMWgxdjFoLTF6IE0yNywyMWgxdjFoLTF6IE0yOCwyMWgxdjFoLTF6IE0yOSwyMWgxdjFoLTF6IE0zMCwyMWgxdjFoLTF6IE0zMSwyMWgxdjFoLTF6IE0zMiwyMWgxdjFoLTF6IE0zMywyMWgxdjFoLTF6IE0zNywyMWgxdjFoLTF6IE0zOCwyMWgxdjFoLTF6IE0zOSwyMWgxdjFoLTF6IE00LDIyaDF2MWgtMXogTTYsMjJoMXYxaC0xeiBNMTAsMjJoMXYxaC0xeiBNMTEsMjJoMXYxaC0xeiBNMTIsMjJoMXYxaC0xeiBNMTUsMjJoMXYxaC0xeiBNMTgsMjJoMXYxaC0xeiBNMjAsMjJoMXYxaC0xeiBNMjMsMjJoMXYxaC0xeiBNMjQsMjJoMXYxaC0xeiBNMjUsMjJoMXYxaC0xeiBNMjcsMjJoMXYxaC0xeiBNMjgsMjJoMXYxaC0xeiBNMzEsMjJoMXYxaC0xeiBNMzMsMjJoMXYxaC0xeiBNMzUsMjJoMXYxaC0xeiBNMzgsMjJoMXYxaC0xeiBNNDAsMjJoMXYxaC0xeiBNMTEsMjNoMXYxaC0xeiBNMTMsMjNoMXYxaC0xeiBNMTQsMjNoMXYxaC0xeiBNMTUsMjNoMXYxaC0xeiBNMTgsMjNoMXYxaC0xeiBNMTksMjNoMXYxaC0xeiBNMjAsMjNoMXYxaC0xeiBNMjMsMjNoMXYxaC0xeiBNMjYsMjNoMXYxaC0xeiBNMjcsMjNoMXYxaC0xeiBNMjgsMjNoMXYxaC0xeiBNMzIsMjNoMXYxaC0xeiBNMzMsMjNoMXYxaC0xeiBNMzQsMjNoMXYxaC0xeiBNNDAsMjNoMXYxaC0xeiBNOCwyNGgxdjFoLTF6IE05LDI0aDF2MWgtMXogTTEwLDI0aDF2MWgtMXogTTE2LDI0aDF2MWgtMXogTTIxLDI0aDF2MWgtMXogTTIyLDI0aDF2MWgtMXogTTI2LDI0aDF2MWgtMXogTTI4LDI0aDF2MWgtMXogTTI5LDI0aDF2MWgtMXogTTMwLDI0aDF2MWgtMXogTTMzLDI0aDF2MWgtMXogTTM0LDI0aDF2MWgtMXogTTM2LDI0aDF2MWgtMXogTTM4LDI0aDF2MWgtMXogTTQsMjVoMXYxaC0xeiBNNiwyNWgxdjFoLTF6IE0xMSwyNWgxdjFoLTF6IE0xMiwyNWgxdjFoLTF6IE0xMywyNWgxdjFoLTF6IE0xNCwyNWgxdjFoLTF6IE0xNiwyNWgxdjFoLTF6IE0xOCwyNWgxdjFoLTF6IE0xOSwyNWgxdjFoLTF6IE0yMCwyNWgxdjFoLTF6IE0yMSwyNWgxdjFoLTF6IE0yMywyNWgxdjFoLTF6IE0yNCwyNWgxdjFoLTF6IE0yNiwyNWgxdjFoLTF6IE0yNywyNWgxdjFoLTF6IE0zMCwyNWgxdjFoLTF6IE0zMSwyNWgxdjFoLTF6IE0zNiwyNWgxdjFoLTF6IE0zOCwyNWgxdjFoLTF6IE0zOSwyNWgxdjFoLTF6IE0xMCwyNmgxdjFoLTF6IE0xMiwyNmgxdjFoLTF6IE0xMywyNmgxdjFoLTF6IE0xNSwyNmgxdjFoLTF6IE0xOCwyNmgxdjFoLTF6IE0xOSwyNmgxdjFoLTF6IE0yMCwyNmgxdjFoLTF6IE0yMSwyNmgxdjFoLTF6IE0yNSwyNmgxdjFoLTF6IE0yNiwyNmgxdjFoLTF6IE0yOSwyNmgxdjFoLTF6IE0zMCwyNmgxdjFoLTF6IE0zMSwyNmgxdjFoLTF6IE0zNCwyNmgxdjFoLTF6IE0zNSwyNmgxdjFoLTF6IE0zNiwyNmgxdjFoLTF6IE0zNywyNmgxdjFoLTF6IE00MCwyNmgxdjFoLTF6IE01LDI3aDF2MWgtMXogTTgsMjdoMXYxaC0xeiBNOSwyN2gxdjFoLTF6IE0xMSwyN2gxdjFoLTF6IE0xMiwyN2gxdjFoLTF6IE0xMywyN2gxdjFoLTF6IE0xOCwyN2gxdjFoLTF6IE0xOSwyN2gxdjFoLTF6IE0yMSwyN2gxdjFoLTF6IE0yMiwyN2gxdjFoLTF6IE0yNCwyN2gxdjFoLTF6IE0yNiwyN2gxdjFoLTF6IE0yNywyN2gxdjFoLTF6IE0zMCwyN2gxdjFoLTF6IE0zMiwyN2gxdjFoLTF6IE0zNSwyN2gxdjFoLTF6IE0zNiwyN2gxdjFoLTF6IE0zNywyN2gxdjFoLTF6IE00LDI4aDF2MWgtMXogTTUsMjhoMXYxaC0xeiBNOCwyOGgxdjFoLTF6IE0xMCwyOGgxdjFoLTF6IE0xMSwyOGgxdjFoLTF6IE0xNiwyOGgxdjFoLTF6IE0xNywyOGgxdjFoLTF6IE0xOSwyOGgxdjFoLTF6IE0yMSwyOGgxdjFoLTF6IE0yOCwyOGgxdjFoLTF6IE0zMCwyOGgxdjFoLTF6IE0zMSwyOGgxdjFoLTF6IE0zMiwyOGgxdjFoLTF6IE0zNCwyOGgxdjFoLTF6IE0zNSwyOGgxdjFoLTF6IE0zOSwyOGgxdjFoLTF6IE00MCwyOGgxdjFoLTF6IE00LDI5aDF2MWgtMXogTTYsMjloMXYxaC0xeiBNNywyOWgxdjFoLTF6IE05LDI5aDF2MWgtMXogTTExLDI5aDF2MWgtMXogTTEyLDI5aDF2MWgtMXogTTE0LDI5aDF2MWgtMXogTTE2LDI5aDF2MWgtMXogTTIyLDI5aDF2MWgtMXogTTIzLDI5aDF2MWgtMXogTTI0LDI5aDF2MWgtMXogTTI1LDI5aDF2MWgtMXogTTI2LDI5aDF2MWgtMXogTTI3LDI5aDF2MWgtMXogTTMwLDI5aDF2MWgtMXogTTMxLDI5aDF2MWgtMXogTTM1LDI5aDF2MWgtMXogTTM3LDI5aDF2MWgtMXogTTQsMzBoMXYxaC0xeiBNNywzMGgxdjFoLTF6IE0xMCwzMGgxdjFoLTF6IE0xMSwzMGgxdjFoLTF6IE0xMiwzMGgxdjFoLTF6IE0xOSwzMGgxdjFoLTF6IE0yMCwzMGgxdjFoLTF6IE0yMSwzMGgxdjFoLTF6IE0yNCwzMGgxdjFoLTF6IE0yNiwzMGgxdjFoLTF6IE0yOSwzMGgxdjFoLTF6IE0zMSwzMGgxdjFoLTF6IE0zNCwzMGgxdjFoLTF6IE0zNSwzMGgxdjFoLTF6IE0zNywzMGgxdjFoLTF6IE0zOSwzMGgxdjFoLTF6IE00MCwzMGgxdjFoLTF6IE00LDMxaDF2MWgtMXogTTYsMzFoMXYxaC0xeiBNNywzMWgxdjFoLTF6IE0xMSwzMWgxdjFoLTF6IE0xMywzMWgxdjFoLTF6IE0xNCwzMWgxdjFoLTF6IE0xNSwzMWgxdjFoLTF6IE0xNywzMWgxdjFoLTF6IE0yMCwzMWgxdjFoLTF6IE0yNywzMWgxdjFoLTF6IE0yOCwzMWgxdjFoLTF6IE0zMSwzMWgxdjFoLTF6IE0zMiwzMWgxdjFoLTF6IE0zMywzMWgxdjFoLTF6IE0zNSwzMWgxdjFoLTF6IE0zNiwzMWgxdjFoLTF6IE0zOCwzMWgxdjFoLTF6IE00LDMyaDF2MWgtMXogTTgsMzJoMXYxaC0xeiBNMTAsMzJoMXYxaC0xeiBNMTQsMzJoMXYxaC0xeiBNMTgsMzJoMXYxaC0xeiBNMTksMzJoMXYxaC0xeiBNMjAsMzJoMXYxaC0xeiBNMjEsMzJoMXYxaC0xeiBNMjIsMzJoMXYxaC0xeiBNMjYsMzJoMXYxaC0xeiBNMjgsMzJoMXYxaC0xeiBNMjksMzJoMXYxaC0xeiBNMzAsMzJoMXYxaC0xeiBNMzEsMzJoMXYxaC0xeiBNMzIsMzJoMXYxaC0xeiBNMzMsMzJoMXYxaC0xeiBNMzQsMzJoMXYxaC0xeiBNMzUsMzJoMXYxaC0xeiBNMzYsMzJoMXYxaC0xeiBNMzgsMzJoMXYxaC0xeiBNMTIsMzNoMXYxaC0xeiBNMTMsMzNoMXYxaC0xeiBNMTYsMzNoMXYxaC0xeiBNMTgsMzNoMXYxaC0xeiBNMTksMzNoMXYxaC0xeiBNMjMsMzNoMXYxaC0xeiBNMjQsMzNoMXYxaC0xeiBNMjcsMzNoMXYxaC0xeiBNMjgsMzNoMXYxaC0xeiBNMjksMzNoMXYxaC0xeiBNMzIsMzNoMXYxaC0xeiBNMzYsMzNoMXYxaC0xeiBNNCwzNGgxdjFoLTF6IE01LDM0aDF2MWgtMXogTTYsMzRoMXYxaC0xeiBNNywzNGgxdjFoLTF6IE04LDM0aDF2MWgtMXogTTksMzRoMXYxaC0xeiBNMTAsMzRoMXYxaC0xeiBNMTQsMzRoMXYxaC0xeiBNMTcsMzRoMXYxaC0xeiBNMTgsMzRoMXYxaC0xeiBNMTksMzRoMXYxaC0xeiBNMjEsMzRoMXYxaC0xeiBNMjIsMzRoMXYxaC0xeiBNMjMsMzRoMXYxaC0xeiBNMjUsMzRoMXYxaC0xeiBNMjcsMzRoMXYxaC0xeiBNMjksMzRoMXYxaC0xeiBNMzAsMzRoMXYxaC0xeiBNMzIsMzRoMXYxaC0xeiBNMzQsMzRoMXYxaC0xeiBNMzYsMzRoMXYxaC0xeiBNNDAsMzRoMXYxaC0xeiBNNCwzNWgxdjFoLTF6IE0xMCwzNWgxdjFoLTF6IE0xMywzNWgxdjFoLTF6IE0xNiwzNWgxdjFoLTF6IE0xOCwzNWgxdjFoLTF6IE0yNCwzNWgxdjFoLTF6IE0zMCwzNWgxdjFoLTF6IE0zMSwzNWgxdjFoLTF6IE0zMiwzNWgxdjFoLTF6IE0zNiwzNWgxdjFoLTF6IE0zOSwzNWgxdjFoLTF6IE00MCwzNWgxdjFoLTF6IE00LDM2aDF2MWgtMXogTTYsMzZoMXYxaC0xeiBNNywzNmgxdjFoLTF6IE04LDM2aDF2MWgtMXogTTEwLDM2aDF2MWgtMXogTTEzLDM2aDF2MWgtMXogTTE0LDM2aDF2MWgtMXogTTE4LDM2aDF2MWgtMXogTTIyLDM2aDF2MWgtMXogTTI2LDM2aDF2MWgtMXogTTI3LDM2aDF2MWgtMXogTTI4LDM2aDF2MWgtMXogTTI5LDM2aDF2MWgtMXogTTMxLDM2aDF2MWgtMXogTTMyLDM2aDF2MWgtMXogTTMzLDM2aDF2MWgtMXogTTM0LDM2aDF2MWgtMXogTTM1LDM2aDF2MWgtMXogTTM2LDM2aDF2MWgtMXogTTM4LDM2aDF2MWgtMXogTTQwLDM2aDF2MWgtMXogTTQsMzdoMXYxaC0xeiBNNiwzN2gxdjFoLTF6IE03LDM3aDF2MWgtMXogTTgsMzdoMXYxaC0xeiBNMTAsMzdoMXYxaC0xeiBNMTQsMzdoMXYxaC0xeiBNMTUsMzdoMXYxaC0xeiBNMTcsMzdoMXYxaC0xeiBNMjMsMzdoMXYxaC0xeiBNMjcsMzdoMXYxaC0xeiBNMjksMzdoMXYxaC0xeiBNMzEsMzdoMXYxaC0xeiBNMzMsMzdoMXYxaC0xeiBNMzQsMzdoMXYxaC0xeiBNMzcsMzdoMXYxaC0xeiBNMzgsMzdoMXYxaC0xeiBNNDAsMzdoMXYxaC0xeiBNNCwzOGgxdjFoLTF6IE02LDM4aDF2MWgtMXogTTcsMzhoMXYxaC0xeiBNOCwzOGgxdjFoLTF6IE0xMCwzOGgxdjFoLTF6IE0xMywzOGgxdjFoLTF6IE0xNSwzOGgxdjFoLTF6IE0xNiwzOGgxdjFoLTF6IE0yMSwzOGgxdjFoLTF6IE0yNSwzOGgxdjFoLTF6IE0yNiwzOGgxdjFoLTF6IE0yOCwzOGgxdjFoLTF6IE0yOSwzOGgxdjFoLTF6IE0zMCwzOGgxdjFoLTF6IE0zMiwzOGgxdjFoLTF6IE0zNywzOGgxdjFoLTF6IE0zOSwzOGgxdjFoLTF6IE00MCwzOGgxdjFoLTF6IE00LDM5aDF2MWgtMXogTTEwLDM5aDF2MWgtMXogTTEzLDM5aDF2MWgtMXogTTE0LDM5aDF2MWgtMXogTTE1LDM5aDF2MWgtMXogTTE4LDM5aDF2MWgtMXogTTE5LDM5aDF2MWgtMXogTTIwLDM5aDF2MWgtMXogTTI0LDM5aDF2MWgtMXogTTI3LDM5aDF2MWgtMXogTTI4LDM5aDF2MWgtMXogTTMwLDM5aDF2MWgtMXogTTMyLDM5aDF2MWgtMXogTTM0LDM5aDF2MWgtMXogTTM2LDM5aDF2MWgtMXogTTQwLDM5aDF2MWgtMXogTTQsNDBoMXYxaC0xeiBNNSw0MGgxdjFoLTF6IE02LDQwaDF2MWgtMXogTTcsNDBoMXYxaC0xeiBNOCw0MGgxdjFoLTF6IE05LDQwaDF2MWgtMXogTTEwLDQwaDF2MWgtMXogTTEyLDQwaDF2MWgtMXogTTEzLDQwaDF2MWgtMXogTTE0LDQwaDF2MWgtMXogTTE1LDQwaDF2MWgtMXogTTE3LDQwaDF2MWgtMXogTTE4LDQwaDF2MWgtMXogTTIyLDQwaDF2MWgtMXogTTIzLDQwaDF2MWgtMXogTTI0LDQwaDF2MWgtMXogTTI3LDQwaDF2MWgtMXogTTI4LDQwaDF2MWgtMXogTTMyLDQwaDF2MWgtMXogTTM0LDQwaDF2MWgtMXogTTM1LDQwaDF2MWgtMXogTTQwLDQwaDF2MWgtMXoiIGZpbGw9IiMwMDAwMDAiLz4KPC9zdmc+Cg==" alt="QR Code"></div> <div class="col"><div class="row"><div class="col"><h6>Smart Device</h6></div></div> <div class="row"><div class="col">
+                Connect your trained model to a smart device using your unique model key. Point your smart device's camera at the QR code to connect to your model automatically.
+              </div></div> <div class="row"><div class="col"><a href="https://aicode101.com/en-us/projects/31776/smartdevice" target="_blank" class="application-link">Connect Your Model<i class="fe-icon-arrow-right"></i></a></div></div></div></div></div> <div class="modal-footer"><button type="button" class="btn btn-secondary">Cancel</button></div></div></div></div></div></div>
+
+  </div>
+  <!-- Spacer -->
+  <div class="flex-grow-1"></div>
+  <!-- Footer-->
+  
+    
+    
+    
+    
+    
+  
+  <footer class="bg-dark footer-style-full">
+    
+    <div class="footer-toggle-anchor">
+      <div class="footer-toggle">
+        <div class="footer-toggle-origin footer-toggle-down">
+          <i class="fe-icon-chevron-up"></i>
+        </div>
+      </div>
+    </div>
+    
+    <div class="footer-simple d-none w-100 align-items-center">
+      <div class="footer-footnote">
+        <div class="mx-auto text-center">
+          <p class="m-0 text-sm text-white"><span class="opacity-60">© AI Illuminated Corp. All rights reserved.</span></p>
+        </div>
+      </div>
+    </div>
+    <div class="footer-full d-lg-flex w-100 align-items-center">
+      <div class="footer-contact">
+        <div class="mx-auto text-center">
+          <h6 class="text-sm font-weight-medium text-white text-uppercase text-center">Want to use this for your school?</h6>
+          <ul class="list-unstyled text-white">
+            <li><span class="opacity-60">Call:</span> +1 (302) 588 6066</li>
+            <li><span class="opacity-60">Email:</span> info@illum.ai</li>
+          </ul>
+          <p class="m-0 text-sm text-white"><span class="opacity-60">© AI Illuminated Corp. All rights reserved.</span></p>
+        </div>
+      </div>
+      <div class="footer-video">
+        <video controls="" preload="metadata" poster="/static/img/intro-thumbnail.jpg">
+          <source src="https://s3.amazonaws.com/files.aicode101.com/video/intro.webm" type="video/webm">
+          <source src="https://s3.amazonaws.com/files.aicode101.com/video/intro.mp4" type="video/mp4">
+          Sorry, your browser doesn't support embedded videos.
+        </video>
+      </div>
+      <div class="footer-footnote">
+        <div class="mx-auto">
+          <div class="footer-footnote-contents font-weight-medium text-center text-white">
+            <div>Powered by Google Tensorflow</div>
+            <p class="m-0 mt-1 text-sm text-white"><span class="opacity-60"><a href="https://aicode101.com/en-us/privacy/">Privacy Policy</a></span></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- default sticky text (typically empty) -->
+  
+	<script src="./Travelbot project · AI Code 101_files/vendor.min.js.download"></script>
+	<script src="./Travelbot project · AI Code 101_files/theme.min.js.download"></script>
+  <script type="text/javascript">
+    
+    function browserSupportsES6() {
+      'use strict';
+      if (typeof Symbol == 'undefined') {
+        return false;
+      }
+      try {
+        Function('"use strict"; class Foo {}')();
+        Function('"use strict"; let bar = (x) => x + 1')();
+      } catch (e) {
+        return false;
+      }
+      return true;
+    }
+    
+    $(document).ready(function() {
+      var alertOldBrowser = $('#alert-old-browser');
+      if (browserSupportsES6()) {
+        alertOldBrowser.remove();
+        return;
+      }
+      alertOldBrowser.toggleClass('d-none');
+    });
+  </script>
+  <script type="text/javascript">
+    
+    $('.footer-toggle').click(() => {
+      const footer = $('footer');
+      const footerSimple = $('.footer-simple');
+      const footerFull = $('.footer-full');
+      const footerToggleOrigin = $('.footer-toggle-origin');
+      const footerVideo = $('.footer-video > video');
+      footer.toggleClass('footer-style-simple');
+      footer.toggleClass('footer-style-full');
+      footerSimple.toggleClass('d-none');
+      footerSimple.toggleClass('d-block');
+      footerFull.toggleClass('d-none');
+      footerFull.toggleClass('d-lg-flex');
+      footerToggleOrigin.toggleClass('footer-toggle-up');
+      footerToggleOrigin.toggleClass('footer-toggle-down');
+      footerVideo.prop('preload', footerVideo.prop('preload') === 'none' ? 'metadata' : 'none');
+      footerVideo[0].pause();
+      footer[0].scrollIntoView({behavior: "smooth"});
+      $.ajax({url: '/en-us/footertoggle/'});
+    });
+  </script>
+  
+<script src="./Travelbot project · AI Code 101_files/bluebird.min.js.download"></script>
+<script src="./Travelbot project · AI Code 101_files/setImmediate.min.js.download"></script>
+<script src="./Travelbot project · AI Code 101_files/vue.min.js.download"></script>
+<script src="./Travelbot project · AI Code 101_files/vurl.min.js.download"></script>
+<script src="./Travelbot project · AI Code 101_files/link-dom.min.js.download"></script>
+<script src="./Travelbot project · AI Code 101_files/decode-html-entities.min.js.download"></script>
+
+
+<script src="./Travelbot project · AI Code 101_files/axios.min.js.download"></script>
+
+<script type="text/javascript">
+(function() {
+'use strict';
+
+// Polyfill Promise.delay if Bluebird wasn't imported
+if (!Promise.delay) {
+	Promise.delay = function(ms) {
+		new Promise((resolve, reject) => {
+			window.setTimeout(resolve, ms);
+		});
+	}
+}
+
+// Set default timeout and headers
+const backend = axios.create({
+	timeout: 12500,
+	headers: {'X-CSRFToken': 'pLPuRJPd15RbCCkCAoVigxWQ39x282TZdFbl8wIbr1rulnzh2NfwrhpMiwux1VAK'}
+});
+
+// Set default request handling
+backend.interceptors.request.use((config) => {
+	// Track the number of attempts
+	config.attempts = (config.attempts || 0) + 1;
+	return config;
+}, (error) => {
+	return Promise.reject(error);
+});
+
+// Set default response handling
+backend.interceptors.response.use((response) => {
+	return response.data;
+}, (error) => {
+	// Reattempt automatically if the status implies the error may be temporary
+	if (error.response &&
+		[500, 502, 503, 504, 507, 509].includes(error.response.status) &&
+		error.config.attempts < 3
+	) {
+		return Promise.delay(1000).then(() => backend.request(error.config));
+	}
+	// Give up
+	try {
+		error = new Error(error.response.data.message);
+	} catch (innerError) {
+		// Leave the original error as-is
+	} finally {
+		return Promise.reject(error);
+	}
+});
+
+// Module exports
+window.backend = backend;
+
+})();
+</script>
+
+
+
+<script type="text/javascript" src="./Travelbot project · AI Code 101_files/bluebird.min.js.download"></script>
+<script type="text/javascript" src="./Travelbot project · AI Code 101_files/qrcodegen.min.js.download"></script>
+<script type="text/javascript">
+(function() {
+'use strict';
+
+const QR = qrcodegen.QrCode;
+const QRType = Object.freeze({'model': 1, 'directInput': 2});
+
+function createQRFromModel(params) {
+    params.qrType = QRType.model;
+    return createQR(params);
+}
+
+function createQRFromDirectInput(params) {
+    params.qrType = QRType.directInput;
+    return createQR(params);
+}
+
+function createQR(params) {
+    return Promise.bind(params)
+        .then(getModel)
+        .then(encodeTextToQR)
+        .then(convertToB64);
+}
+
+function getModel() {
+    return request("/en-us/projects/31776/publickey");
+}
+
+function encodeTextToQR(model) {
+    switch (this.qrType) {
+        case QRType.model:
+            if (!this.endpoint) {
+                throw new Error("'endpoint' must be defined and not empty.");
+            }
+            return QR.encodeText(`${baseURL()}/api/model/${model.id}/${this.endpoint}`, QR.Ecc.MEDIUM).toSvgString(4);
+        case QRType.directInput:
+            if (this.text === undefined) {
+                throw new Error("'text' must be defined.");
+            }
+            return QR.encodeText(this.text, QR.Ecc.MEDIUM).toSvgString(4);
+        default:
+            throw new Error("'qrType' must be defined and supported.");
+    }
+}
+
+function convertToB64(text) {
+    return `data:image/svg+xml;base64,${window.btoa(text)}`;
+}
+
+function request(url, method = 'GET') {
+    return new Promise((resolve, reject) => {
+        if (url === undefined || !url) {
+            reject(new Error("'url' must be defined."));
+        }
+
+        $.ajax({
+            url: url,
+            type: 'GET',
+            dataType: 'json',
+            success: resolve,
+            error: (xhr) => {
+                reject(new Error(`${xhr.status}: ${xhr.responseText}`));
+            }
+        });
+    });
+}
+
+function baseURL() {
+    const href = window.location.href;
+    const projectIndex = href.indexOf('/projects');
+
+    if (projectIndex === -1) {
+        throw new Error("Invalid url. Must be called from a user project.")
+    }
+
+    const langcodeIndex = href.substr(0, projectIndex).lastIndexOf('/');
+
+    if (langcodeIndex === -1) {
+        throw new Error("Invalid url. Must be called from a user project.")
+    }
+
+    // Determine the correct index to use based on assumption:
+    //     The langcode should begin with exactly 2 or 3 characters before any hyphen
+    const endIndex = [2, 3].includes(href.substr(langcodeIndex, projectIndex).split('-')[0].length) ?
+        langcodeIndex :
+        projectIndex;
+
+    return href.substr(0, endIndex);
+}
+
+// Module exports
+window.generateqr = {
+    fromModel: createQRFromModel,
+    fromDirectInput: createQRFromDirectInput
+};
+
+})();
+</script>
+
+<script type="text/javascript">
+(function() {
+'use strict';
+
+function updateAll() {
+	// Apply width to all instances of .progress
+	$('.progress').each(function(index) {
+		const width = $(this).width();
+		$(this).find('.progress-bar-text').css('width', width);
+	});
+}
+
+// Update progress bars on script load
+updateAll();
+
+// Assign update to window resize event
+$(window).resize(updateAll);
+
+// Module exports
+window.ProgressBar = {
+	updateAll
+};
+	
+})();
+</script>
+
+
+
+<script type="text/javascript">
+(function() {
+'use strict';
+
+class Intent {
+	constructor(id, title, intent=null) {
+		this.id = Number(id);
+		this.title = title;
+		this.intent = intent || title;
+		this.utterances = [];
+		this.tempUtteranceID = -1;
+		this.responses = [];
+		this.tempResponseID = -1;
+		this.beingDeleted = false;
+		this.dragOver = 0;
+		this.dom = {};
+
+		linkDom(this, () => {
+			this.dom.intentContent = $(`#intent-content-${this.id}`);
+		});
+	}
+
+	static async create(title) {
+		const response = await backend.post(`/en-us/projects/31776/addlabel`, {
+			title,
+			clientside: true
+		});
+
+		const {id, intent} = response;
+
+		let newIntent = new Intent(id, title, intent);
+
+		// Add a default response if only one response is allowed and required
+		if (newIntent.minimumResponses == 1 && newIntent.maximumResponses == 1) {
+			newIntent.addNewResponse();
+		}
+
+		return newIntent;
+	}
+
+	async delete() {
+		if (this.isBusy || this.areSamplesBusy()) {
+			throw new Error(`Cannot delete intent while it is busy.`);
+		}
+
+		this.beingDeleted = true;
+
+		// Prevent any samples from trying to save changes after deletion
+		this.clearSampleTimeouts();
+
+		try {
+			await backend.post(vurl(`/en-us/projects/31776/label/0/delete`, {label: this.id}));
+		} catch (error) {
+			this.beingDeleted = false;
+			throw error;
+		}
+	}
+
+	async createUtterance() {
+		if (this.maximumUtterancesReached) {
+			return;
+		}
+
+		const utteranceID = this.tempUtteranceID--;
+		const newUtterance = Sample.create(this.id, `UTTERANCE`, utteranceID);
+		this.utterances.push(newUtterance);
+
+		// Delete any training (if exists)
+		vueApp.deleteTraining();
+
+		vueApp.checkStepConditions();
+		await this.scrollToLatest();
+	}
+
+	async createResponse() {
+		if (this.maximumResponsesReached) {
+			return;
+		}
+
+		const responseID = this.tempResponseID--;
+		const newResponse = Sample.create(this.id, `RESPONSE`, responseID);
+		this.responses.push(newResponse);
+
+		// Delete any training (if exists)
+		vueApp.deleteTraining();
+
+		vueApp.checkStepConditions();
+		await this.scrollToLatest();
+	}
+
+	async deleteUtterance(utterance) {
+		if (this.isBusy || !utterance ||
+			!(utterance instanceof Sample) || utterance.beingDeleted
+		) {
+			return;
+		}
+
+		// Delete utterance from the project
+		if (!utterance.temp) {
+			try {
+				await utterance.delete();
+			} catch (error) {
+				const {message} = error;
+				window.alert(
+					`Unable to delete utterance: ${message}`
+				);
+				throw error;
+			}
+		}
+
+		// Delete utterance from the view
+		this.utterances.splice(this.utterances.findIndex((x) => x.id === utterance.id), 1);
+
+		// Delete any training (if exists)
+		if (!utterance.temp) {
+			vueApp.deleteTraining();
+		}
+
+		// Check if the active step should change
+		vueApp.checkStepConditions();
+	}
+
+	async deleteResponse(response) {
+		if (this.maximumResponses <= 1 || this.isBusy || !response ||
+			!(response instanceof Sample) || response.beingDeleted
+		) {
+			return;
+		}
+
+		// Delete response from the project
+		if (!response.temp) {
+			try {
+				await response.delete();
+			} catch (error) {
+				const {message} = error;
+				window.alert(
+					`Unable to delete response: ${message}`
+				);
+				throw error;
+			}
+		}
+
+		// Delete response from the view
+		this.responses.splice(this.responses.findIndex((x) => x.id === response.id), 1);
+
+		// Delete any training (if exists)
+		if (!response.temp) {
+			vueApp.deleteTraining();
+		}
+
+		// Check if the active step should change
+		vueApp.checkStepConditions();
+	}
+
+	async deleteSample(sample, category) {
+		switch (category) {
+			case `UTTERANCE`:
+				return await this.deleteUtterance(sample);
+			case `RESPONSE`:
+				return await this.deleteResponse(sample);
+			default:
+				throw new Error("Unhandled sample category.");
+		}
+	}
+
+	addNewUtterance() {
+		this.createUtterance();
+	}
+
+	addNewResponse() {
+		this.createResponse();
+	}
+
+	async scrollToLatest() {
+		if (typeof vueApp === "undefined") {
+			return;
+		}
+
+		// Scroll chat area to the bottom
+		await vueApp.$nextTick();
+		try {
+			const intentContent = this.dom.intentContent;
+			intentContent.scrollTop(intentContent.prop('scrollHeight'));
+		} catch (error) {
+			// Ignore error
+			console.log(error);
+		}
+	}
+
+	areSamplesBusy() {
+		const samples = [...this.utterances, ...this.responses];
+		const sampleCount = samples.length;
+		for (let i = 0; i < sampleCount; i++) {
+			const sample = samples[i];
+			if (sample.isBusy) {
+				return true;
+			}
+		}
+		return false;
+	}
+
+	clearSampleTimeouts() {
+		const samples = [...this.utterances, ...this.responses];
+		const sampleCount = samples.length;
+		for (let i = 0; i < sampleCount; i++) {
+			const sample = samples[i];
+			sample.clearInputTimeout();
+		}
+	}
+
+	get utteranceCountHint() {
+		if (!this.minimumUtterancesReached) {
+			const numNeeded = this.minimumUtterances - this.utteranceCount;
+			const utteranceType = numNeeded > 1 ?
+				`utterances` :
+				`utterance`;
+			return `Intent needs at least ${numNeeded} more ${utteranceType}`;
+		} else if (this.maximumUtterancesReached) {
+			return `Intent is at max capacity`;
+		} else {
+			return '';
+		}
+	}
+
+	get utteranceCount() {
+		return this.utterances.length;
+	}
+
+	get responseCount() {
+		return this.responses.length;
+	}
+
+	get isEmpty() {
+		return this.utteranceCount === 0;
+	}
+
+	get isBusy() {
+		return this.beingDeleted || vueApp.training;
+	}
+
+	get minimumUtterances() {
+		return Math.max(Number(3) || 1, 1);
+	}
+
+	get maximumUtterances() {
+		return Math.max(Number(15) || 1, 1);
+	}
+
+	get minimumUtterancesReached() {
+		return this.utteranceCount >= this.minimumUtterances;
+	}
+
+	get maximumUtterancesReached() {
+		return this.utteranceCount >= this.maximumUtterances;
+	}
+
+	get minimumResponses() {
+		return Math.max(Number(1) || 1, 1);
+	}
+
+	get maximumResponses() {
+		return Math.max(Number(1) || 1, 1);
+	}
+
+	get minimumResponsesReached() {
+		return this.responseCount >= this.minimumResponses;
+	}
+
+	get maximumResponsesReached() {
+		return this.responseCount >= this.maximumResponses;
+	}
+
+	get minimumSamplesReached() {
+		return this.minimumUtterancesReached && this.minimumResponsesReached;
+	}
+}
+
+// Out-of-scope functions
+
+
+
+// Module exports
+window.Intent = Intent;
+
+})();
+</script>
+
+
+
+<script type="text/javascript">
+(function() {
+'use strict';
+
+class Sample {
+	constructor(id, text, {temp, prediction} = {}) {
+		this.id = Number(id);
+		this.text = text;
+		this.textRollback = text;
+		this.backendPromise = Promise.resolve();
+		this.inputTimeout = null;
+		this.beingSaved = false;
+		this.beingDeleted = false;
+
+		if (temp) {
+			this.temp = true;
+		}
+
+		if (prediction) {
+			this.prediction = prediction;
+		}
+	}
+
+	static create(intentID, category, tempID = -1, initialText = "") {
+		const newSample = new Sample(tempID, initialText, {temp: true});
+
+		// Don't await this method intentionally
+		newSample.postCreate(intentID, category);
+
+		return newSample;
+	}
+
+	async postCreate(intentID, category) {
+		this.beingSaved = true;
+
+		let response;
+		try {
+			this.backendPromise = backend.post(vurl(
+				`/en-us/projects/31776/label/0/addsamples`,
+				{label: intentID}
+			), {
+				samples: [
+					{id: this.id, category, text: this.text}
+				]
+			});
+			response = await this.backendPromise;
+		} catch (error) {
+			const {message} = error;
+			const sampleLabel = category === `UTTERANCE` ?
+				`utterance` :
+				`response`;
+			window.alert(
+				`Unable to create ${sampleLabel}: ${message}`
+			);
+
+			// Remove zombie sample (don't await intentionally, to avoid supressing the above error)
+			vueApp.$nextTick()
+				.then(() => vueApp.getIntent(intentID).deleteSample(this, category));
+
+			throw error;
+		}
+
+		const {id, text} = response.samples[0];
+
+		this.id = id;
+		this.text = text;
+		this.textRollback = text;
+		Vue.delete(this, "temp");
+
+		this.beingSaved = false;
+	}
+
+	async save() {
+		if (this.beingDeleted) {
+			return;
+		}
+
+		this.clearInputTimeout();
+
+		// Await any previous backend work before proceeding
+		await this.backendPromise;
+
+		this.beingSaved = true;
+
+		try {
+			this.backendPromise = backend.post(`/en-us/projects/31776/updatesamples`, {
+				samples: [
+					{id: this.id, text: this.text}
+				]
+			}).catch((error) => {
+				// Rollback text to the previous state
+				this.text = this.textRollback;
+				this.backendPromise = Promise.resolve();
+				throw error;
+			});
+			await this.backendPromise;
+
+			// Update rollback state
+			this.textRollback = this.text;
+
+			// Delete any training (if exists)
+			vueApp.deleteTraining();
+			vueApp.checkStepConditions();
+		} finally {
+			this.beingSaved = false;
+		}
+	}
+
+	async delete() {
+		if (this.isBusy) {
+			return;
+		}
+
+		this.beingDeleted = true;
+		this.clearInputTimeout();
+
+		// Await any previous backend work before proceeding
+		await this.backendPromise;
+
+		try {
+			this.backendPromise = backend.post(vurl(
+				`/en-us/projects/31776/sample/0/deletesample`,
+				{sample: this.id}
+			));
+			await this.backendPromise;
+		} catch (error) {
+			this.beingDeleted = false;
+			this.backendPromise = Promise.resolve();
+			throw error;
+		}
+	}
+
+	setInputTimeout() {
+		if (this.beingDeleted) {
+			return;
+		}
+
+		this.clearInputTimeout();
+		this.inputTimeout = window.setTimeout(async () => {
+			try {
+				this.inputTimeout = null;
+				await this.save();
+			} catch (error) {
+				const {message} = error;
+				window.alert(
+					`Unable to save utterance: ${message}`
+				);
+				throw error;
+			}
+		}, 1000);
+	}
+
+	clearInputTimeout() {
+		window.clearTimeout(this.inputTimeout);
+		this.inputTimeout = null;
+	}
+
+	get isBusy() {
+		return this.beingSaved || this.beingDeleted;
+	}
+}
+
+// Module exports
+window.Sample = Sample;
+
+})();
+</script>
+
+
+
+<script type="text/javascript">
+(function() {
+'use strict';
+
+// Promisifications (exports outside of Vue scope; requires Bluebird)
+window.yieldImmediate = Promise.promisify(setImmediate);
+
+// Vue instantiation (exports for access outside of Vue scope)
+window.vueApp = new Vue({
+	delimiters: ['[[', ']]'],
+	el: '#projects-editchatbot-app',
+	data: {
+		appLoaded: false,
+		intents: [],
+		newIntentTitle: '',
+		creatingIntent: false,
+		scrollThresholdDisabled: true,
+		scrollThresholdMet: false,
+		condenseSteps: false,
+		activeStep: 1,
+		training: false,
+		trained: false,
+		trainingStatus: '',
+		trainingProgress: 0,
+		trainingTransitioning: false,
+		modelID: '00000000-0000-0000-0000-000000000000',
+		testing: false,
+		testingTimeout: null,
+		testVerified: Boolean(true),
+		applicationModalOpen: false
+	},
+	methods: {
+		vurl,
+		loadIntentsAndSamples,
+		createIntent,
+		deleteIntent,
+		doTraining,
+		deleteTraining,
+		getModelID,
+		startTesting,
+		stopTesting,
+		verifyTestResults,
+		toggleStepsState,
+		forceCondensedSteps,
+		stepTitle,
+		stepClicked,
+		checkStepConditions,
+		getIntent,
+		intentCount,
+		getIntentsForPOST,
+		minimumIntents,
+		maximumIntents,
+		hasEnoughIntents,
+		hasEnoughSamplesPerIntent,
+		atMaxIntents,
+		totalUtteranceCount,
+		activeStepPercentage,
+		isStepsTransitioning,
+		isModelIDValid
+	},
+	mounted: init
+});
+
+// App instantiation
+async function init() {
+	// Load existing intents and their samples
+	this.loadIntentsAndSamples();
+
+	// Check which step the app should start on
+	this.checkStepConditions();
+
+	// For portrait tablets and all phones, force the condensed steps display
+	if (window.innerWidth < 992) {
+		this.forceCondensedSteps();
+	}
+
+	// Let the window know to ignore any undesired drag-and-drop operations
+	ignoreDragAndDrop({excludes: ['intent-content']});
+
+	// Observe for scroll events related to the step displays
+	createStepsObserver(this.$refs.observerThreshold);
+
+	// Add a window resize handler to adjust the steps display as necessary
+	$(window).resize(adjustStepsDisplay);
+
+	// Indicate that the app has finished loading
+	this.appLoaded = true;
+
+	// Update the progress bar (can't do it earlier while the app is hidden)
+	await this.$nextTick();
+	ProgressBar.updateAll();
+}
+
+function loadIntentsAndSamples() {
+	let newIntent, newUtterance, newResponse;
+	
+		newIntent = new Intent(
+			81179,
+			decodeHTMLEntities(`Start`),
+			'start'
+		);
+		
+			newUtterance = new Sample(
+				1404476,
+				decodeHTMLEntities(`Where should I travel?`)
+			);
+			newIntent.utterances.push(newUtterance);
+		
+			newUtterance = new Sample(
+				1404477,
+				decodeHTMLEntities(`What&#x27;s a good place to visit?`)
+			);
+			newIntent.utterances.push(newUtterance);
+		
+			newUtterance = new Sample(
+				1404479,
+				decodeHTMLEntities(`Can you recommend a travel spot?`)
+			);
+			newIntent.utterances.push(newUtterance);
+		
+		
+			newResponse = new Sample(
+				1404475,
+				decodeHTMLEntities(`Hi! Let&#x27;s find the perfect destination for you. What do you like most-history, culture, or fun?`)
+			);
+			newIntent.responses.push(newResponse);
+		
+		this.intents.push(newIntent);
+	
+		newIntent = new Intent(
+			81181,
+			decodeHTMLEntities(`Historical`),
+			'historical'
+		);
+		
+			newUtterance = new Sample(
+				1404482,
+				decodeHTMLEntities(`I love history`)
+			);
+			newIntent.utterances.push(newUtterance);
+		
+			newUtterance = new Sample(
+				1404483,
+				decodeHTMLEntities(`Tell me about a Historical site`)
+			);
+			newIntent.utterances.push(newUtterance);
+		
+			newUtterance = new Sample(
+				1404484,
+				decodeHTMLEntities(`What&#x27;s a famous historical place?`)
+			);
+			newIntent.utterances.push(newUtterance);
+		
+			newUtterance = new Sample(
+				1404485,
+				decodeHTMLEntities(`can you recommend a place with lots of history?`)
+			);
+			newIntent.utterances.push(newUtterance);
+		
+		
+			newResponse = new Sample(
+				1404481,
+				decodeHTMLEntities(`Visit Machu Picchu in Peru, an ancient Inca city in the mountains!`)
+			);
+			newIntent.responses.push(newResponse);
+		
+		this.intents.push(newIntent);
+	
+		newIntent = new Intent(
+			81184,
+			decodeHTMLEntities(`Cultural`),
+			'cultural'
+		);
+		
+			newUtterance = new Sample(
+				1404494,
+				decodeHTMLEntities(`What&#x27;s a place with unique traditions`)
+			);
+			newIntent.utterances.push(newUtterance);
+		
+			newUtterance = new Sample(
+				1404495,
+				decodeHTMLEntities(`Where can I go for a cultural experience?`)
+			);
+			newIntent.utterances.push(newUtterance);
+		
+			newUtterance = new Sample(
+				1404496,
+				decodeHTMLEntities(`Can you recommend a country with rich Culture? `)
+			);
+			newIntent.utterances.push(newUtterance);
+		
+		
+			newResponse = new Sample(
+				1404488,
+				decodeHTMLEntities(`In India, don&#x27;t miss the Holi Festival, a colorful celebration of joy and spring!`)
+			);
+			newIntent.responses.push(newResponse);
+		
+		this.intents.push(newIntent);
+	
+		newIntent = new Intent(
+			81185,
+			decodeHTMLEntities(`Fun`),
+			'fun'
+		);
+		
+			newUtterance = new Sample(
+				1404498,
+				decodeHTMLEntities(`What&#x27;s a fun place to visit?`)
+			);
+			newIntent.utterances.push(newUtterance);
+		
+			newUtterance = new Sample(
+				1404499,
+				decodeHTMLEntities(`I want to go somewhere exciting`)
+			);
+			newIntent.utterances.push(newUtterance);
+		
+			newUtterance = new Sample(
+				1404500,
+				decodeHTMLEntities(`Can you suggest a place with cool attractions?`)
+			);
+			newIntent.utterances.push(newUtterance);
+		
+			newUtterance = new Sample(
+				1404501,
+				decodeHTMLEntities(`What&#x27;s a good spot for fun activities?`)
+			);
+			newIntent.utterances.push(newUtterance);
+		
+		
+			newResponse = new Sample(
+				1404497,
+				decodeHTMLEntities(`The London Eye in the UK offers a giant Ferris Wheel with stunning city views!`)
+			);
+			newIntent.responses.push(newResponse);
+		
+		this.intents.push(newIntent);
+	
+
+	
+		this.trained = true;
+		this.activeStep = 3;
+	
+}
+
+async function createIntent(title, {blur} = {blur: false}) {
+	// Only allow one intent to be created at a time, and ignore request if intents are maxed
+	if (this.creatingIntent || this.atMaxIntents() || this.training) {
+		return;
+	}
+
+	// Ignore blur event if '.intent-add' is being clicked
+	if (blur && $('.intent-add:active').length) {
+		return;
+	}
+
+	// Check if title lacks usable content
+	if (!title || !(title = title.trim())) {
+		this.newIntentTitle = '';
+		return;
+	}
+
+	// Replace trails of whitespace with single spaces
+	title = title.replace(/\s+/g, ' ');
+
+	// Create intent for the project and add to the view
+	this.creatingIntent = true;
+	try {
+		this.intents.push(await Intent.create(title));
+
+		// Delete any training (if exists)
+		this.deleteTraining();
+
+		// Check if the active step should change
+		this.checkStepConditions();
+	} catch (error) {
+		window.alert(
+			`Unable to create intent “${title}”: ${error.message}`
+		);
+	} finally {
+		// Reset new intent title
+		this.newIntentTitle = '';
+		this.creatingIntent = false;
+	}
+}
+
+async function deleteIntent(intent) {
+	if (!intent || !(intent instanceof Intent) || this.training) {
+		return;
+	}
+
+	// Delete intent from the project
+	try {
+		await intent.delete();
+	} catch (error) {
+		window.alert(
+			`Unable to delete intent “${intent.title}”: ${error.message}`
+		);
+		return;
+	}
+
+	// Delete intent from the view
+	this.intents.splice(this.intents.findIndex((x) => x.id === intent.id), 1);
+
+	// Delete any training (if exists)
+	this.deleteTraining();
+
+	// Check if the active step should change
+	this.checkStepConditions();
+}
+
+async function doTraining() {
+	if (this.training || !this.hasEnoughIntents()) {
+		return;
+	}
+
+	const totalUtteranceCount = this.totalUtteranceCount();
+
+	if (totalUtteranceCount < 1) {
+		return;
+	}
+
+	const skipTraining = this.trained;
+
+	this.training = true;
+	this.trained = false;
+	this.trainingStatus = `Initializing...`;
+	this.trainingProgress = 0;
+
+	// Force step 2 in case of retraining
+	this.activeStep = 2;
+
+	// Give UI a chance to display the disabled state
+	await Promise.delay(300);
+
+	try {
+		this.trainingStatus = `Training model...`;
+		this.trainingProgress = 25;
+
+		const trainingPromise = skipTraining ?
+			Promise.resolve() :
+			backend.post(`/en-us/projects/31776/train`, {
+				intents: this.getIntentsForPOST()
+			});
+
+		// Wait for the model to finish training before proceeding (require a minimum wait to increase UI visibility)
+		await Promise.all([trainingPromise, Promise.delay(600)]);
+	} catch (error) {
+		window.alert(
+			`Unable to complete training with error message: ${error.message}`
+		);
+		this.training = false;
+		return;
+	}
+
+	// Training complete
+	this.trainingStatus = `Training complete!`;
+	this.trainingProgress = 100;
+	await Promise.delay(300);
+	this.training = false;
+	this.trained = true;
+
+	// Transition training overlay away (but don't wait on it)
+	this.trainingTransitioning = true;
+	Promise.delay(300).then(() => this.trainingTransitioning = false);
+
+	// Check if the active step should change
+	this.checkStepConditions();
+}
+
+function deleteTraining() {
+	// Model deletion should happen automatically (check models.py), so just flip off the trained state
+	this.trained = false;
+	this.stopTesting();
+}
+
+async function getModelID() {
+	if (this.isModelIDValid()) {
+		return this.modelID;
+	}
+
+	return await backend.get(`/en-us/projects/31776/publickey`).then((response) => {
+		return response.id;
+	}).catch((error) => {
+		const {message} = error;
+		window.alert(
+			`Unable to get modelID: ${message}`
+		);
+		throw error;
+	});
+}
+
+function startTesting() {
+	if (this.testing) {
+		return;
+	}
+
+	this.testing = true;
+
+	// Verify testing after the chatbot has been opened for a set period of time
+	window.clearTimeout(this.testingTimeout);
+	this.testingTimeout = window.setTimeout(() => this.verifyTestResults(), 2500);
+}
+
+function stopTesting() {
+	if (!this.testing) {
+		return;
+	}
+
+	this.testing = false;
+	window.clearTimeout(this.testingTimeout);
+}
+
+async function verifyTestResults() {
+	if (this.activeStep !== 3 || !this.testing || this.testVerified) {
+		return;
+	}
+
+	try {
+		await backend.post(`/en-us/projects/31776/verifymodel`);
+	} catch (error) {
+		// Ignore error (doesn't affect model usage)
+		console.log(error);
+	}
+
+	this.testVerified = true;
+	this.checkStepConditions();
+}
+
+async function toggleStepsState() {
+	this.scrollThresholdMet = !this.scrollThresholdMet;
+
+	// The rest should happen at the halfway point of the step transition
+	await Promise.delay(200);
+
+	// Toggle the step visibility
+	this.condenseSteps = !this.condenseSteps;
+
+	// Update the progress bar for the condensed steps if it is being shown
+	if (this.scrollThresholdMet) {
+		await this.$nextTick();
+		ProgressBar.updateAll();
+	}
+}
+
+async function forceCondensedSteps() {
+	// Set the condensed state (must also set the scroll threshold as met)
+	this.scrollThresholdMet = true;
+	this.condenseSteps = true;
+	// Update the progress bar for the condensed steps
+	await this.$nextTick();
+	ProgressBar.updateAll();
+}
+
+function stepTitle(stepNumber) {
+	switch (stepNumber) {
+		case 1:
+			return `Create Intents`;
+		case 2:
+			return `Train Your Model`;
+		case 3:
+			return `Test Your Training`;
+		case 4:
+			return `Apply Your Model`;
+		default:
+			return;
+	}
+}
+
+function stepClicked(stepNumber) {
+	if (this.training) {
+		return;
+	}
+
+	switch (stepNumber) {
+		case 1:
+			try {
+				this.$refs.newIntent.scrollIntoView();
+				this.$refs.newIntentInput.focus();
+			} catch (error) {
+				this.$refs.intents.scrollIntoView();
+			}
+			break;
+		case 2:
+			this.doTraining();
+			break;
+		case 3:
+			this.startTesting();
+			break;
+		case 4:
+			this.applicationModalOpen = true;
+			break;
+		default:
+			return;
+	}
+}
+
+function checkStepConditions() {
+	if (this.activeStep > 1) {
+		if (!this.hasEnoughIntents() || !this.hasEnoughSamplesPerIntent()) {
+			this.activeStep = 1;
+			this.deleteTraining();
+			this.testVerified = false;
+			return;
+		}
+	}
+
+	if (this.activeStep > 2) {
+		if (!this.trained) {
+			this.activeStep = 2;
+			this.testVerified = false;
+		}
+	}
+
+	switch (this.activeStep) {
+		case 1:
+			if (this.hasEnoughIntents() && this.hasEnoughSamplesPerIntent()) {
+				this.activeStep = 2;
+			}
+			break;
+		case 2:
+			if (this.trained) {
+				this.getModelID().then((modelID) => {
+					this.modelID = modelID;
+					this.activeStep = 3;
+					this.checkStepConditions();
+				});
+			}
+			break;
+		case 3:
+			this.getModelID().then((modelID) => {
+				this.modelID = modelID;
+			}).catch((error) => {
+				this.activeStep = 2;
+				throw error;
+			});
+			if (this.testVerified) {
+				this.activeStep = 4;
+				generateqr.fromModel({endpoint: 'utter'}).then((qrCode) => {
+					$(this.$refs.applicationModalQR).attr('src', qrCode);
+				});
+			}
+			break;
+		case 4:
+			// Probably nothing to do here
+			break;
+		default:
+			return;
+	}
+}
+
+function getIntent(id) {
+	return this.intents.find((intent) => intent.id === id);
+}
+
+function getIntentsForPOST() {
+	const intents = {};
+	const intentCount = this.intentCount();
+
+	for (let i = 0; i < intentCount; i++) {
+		const intent = this.intents[i];
+		const title = intent.title.trim();
+		const utterances = intent.utterances.map((utterance) => utterance.text);
+
+		intents[title] = utterances;
+	}
+
+	return intents;
+}
+
+function intentCount() {
+	return this.intents.length;
+}
+
+function minimumIntents() {
+	return Math.max(Number(1) || 1, 1);
+}
+
+function maximumIntents() {
+	return Math.max(Number(9) || 1, 1);
+}
+
+function hasEnoughIntents() {
+	return this.intentCount() >= this.minimumIntents();
+}
+
+function hasEnoughSamplesPerIntent() {
+	for (const intent of this.intents) {
+		if (!intent.minimumSamplesReached) {
+			return false;
+		}
+	}
+	return true;
+}
+
+function atMaxIntents() {
+	return this.intentCount() >= this.maximumIntents();
+}
+
+function totalUtteranceCount() {
+	return this.intents.reduce((total, intent) => total + intent.utteranceCount, 0);
+}
+
+function activeStepPercentage() {
+	return this.activeStep * 25;
+}
+
+function isStepsTransitioning() {
+	return this.condenseSteps != this.scrollThresholdMet;
+}
+
+function isModelIDValid() {
+	return this.modelID.length === 36 && this.modelID !== '00000000-0000-0000-0000-000000000000';
+}
+
+// Out-of-scope functions
+
+function ignoreDragAndDrop({excludes}) {
+	if (!excludes) {
+		excludes = [];
+	} else if (!Array.isArray(excludes)) {
+		excludes = [excludes];
+	}
+
+	const ignoreEvent = (e) => {
+		e = e || event;
+
+		// Ignore further operations (excluding classes where drag-and-drop is desired)
+		excludes.forEach((exclude) => {
+			if (!e.target.classList.contains(exclude)) {
+				e.preventDefault();
+				e.stopPropagation();
+			}
+		});
+	};
+
+	$(window).on('dragover', ignoreEvent);
+	$(window).on('drop', ignoreEvent);
+}
+
+function createStepsObserver(observerThreshold) {
+	const options = {
+		root: null,
+		rootMargin: '0px',
+		threshold: [1]
+	};
+
+	try {
+		// Start listening for scroll threshold intersection events
+		const observer = new IntersectionObserver(determineStepsState, options);
+		observer.observe(observerThreshold);
+	} catch (error) {
+		// Disable scroll threshold as this feature is only for novelty
+		console.log(error);
+		vueApp.scrollThresholdDisabled = true;
+	}
+}
+
+async function determineStepsState(entries, observer) {
+	const entry = entries[0];
+	const viewportHeight = entry.rootBounds.height;
+
+	// Restrict state changes to compatible dimensions
+	if (window.innerWidth < 992) {
+		return;
+	} else if (viewportHeight >= 1200 || viewportHeight < 600) {
+		vueApp.scrollThresholdDisabled = true;
+		return;
+	}
+
+	// Ignore if the entry is not in the upper half of the viewport
+	if (entry.boundingClientRect.y > viewportHeight / 2) {
+		return;
+	}
+
+	// Indicate that the scroll threshold is active (locks the steps section height for animation)
+	vueApp.scrollThresholdDisabled = false;
+
+	/* Toggle state based on existing state (ratio:1 = entering the viewport; ratio:0 = leaving the viewport)
+	 * Note that I am moving the scroll threshold position in edit.html based on vueApp.scrollThresholdMet
+	 */
+	if (vueApp.scrollThresholdMet && entry.intersectionRatio === 1 ||
+		!vueApp.scrollThresholdMet && entry.intersectionRatio === 0
+	) {
+		await vueApp.toggleStepsState();
+	}
+}
+
+function adjustStepsDisplay() {
+	// For portrait tablets and all phones, force the condensed steps display
+	if (window.innerWidth < 992) {
+		vueApp.forceCondensedSteps();
+	}
+}
+
+})();
+</script>
+
+
+  
+  <!-- modal content (typically empty) -->
+
+
+</body></html>
